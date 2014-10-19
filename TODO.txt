@@ -1,0 +1,11 @@
+Check inside /usr/share/cinnamon/applets/scale@cinnamon.org for
+
+const Main = imports.ui.main;
+
+and
+
+if (!Main.overview.animationInProgress) {
+	Main.overview.toggle();
+}
+
+port to shell
